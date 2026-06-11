@@ -31,4 +31,4 @@ apellidoAlumno= Pestana
 let edadAlumno
 edadAlumno= 14
 
-console.log('El alumno:' + nombreAlumno + apellidoAlumno  ' tiene '+ edadAlumno)
+console.log('El alumno:' + nombreAlumno + apellidoAlumno  + " tiene" + edadAlumno)
