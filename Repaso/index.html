@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen diciembre</title>
+</head>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgb(27, 57, 30);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div {
+        width: 300px;
+        box-shadow: 0 0 8px rgba(220, 220, 220, 0.3);
+        margin: 0.5rem;
+        padding: 0.3rem;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button {
+        background-color: rgb(130, 1, 1);
+        color: white;
+        border: none;
+        padding: 0.5rem;
+        border-radius: 0.4rem;
+        margin: 0.3rem;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: rgb(213, 2, 2);
+        transition: background-color 0.3s ease;
+    }
+
+    input{
+        border-radius: 0.3rem;
+        padding: 0.5rem;
+        border: none;
+    }
+    sc{
+        color: black;
+        background-color: yellow;
+    }
+
+</style>
+
+<body>
+    <h1>🎄Examen Diciembre🎅🏼</h1>
+    <p>
+        Este exámen cuenta con 3 ejercicios, los cuales deberán trabajar en Java<sc>Script</sc>. Recueden 
+        que el mismo es INDIVIDUAL. No pueden consultar con sus compañeros ni utilizar alguna herramienta de IA
+    </p>
+    <p>
+        Reglas: No modificar el html, lo único que pueden verificar y corregir 
+        son las etiquetas script para el JS. Verificar que el nombre del archivo coincida
+    </p>
+
+    <div class="ejercicio1">
+        <h2 id="textoEjercicio1">Feliz navidad!🎄</h2>
+        <button id="botonEjercicio1">Cambiar colores</button>
+    </div>
+
+    <div class="ejercicio2">
+        <h2 id="textoEjercicio2"> ¿Es navidad?🎄</h2>
+        <p>Estamos en DICIEMBRE, ingresa el número del día para saber si esa navidad o no</p>
+        <input id="datosEjercicio2" type="number" placeholder="Ingresa el numero de dia">
+        <button id="botonEjercicio2">Verificar</button>
+    </div>
+
+    <div class="ejercicio3">
+        <h2 id="textoEjercicio3"> ¿Es hora de cenar?🎄</h2>
+        <p>Ingresa una hora, de 0 a 24, para saber si es hora de cenar o no</p>
+        <p>
+            Ayuda: En este ejercicio, recordá utilizar la funcion Number() para convertir el valor del input a número.
+        </p>
+        <input id="datosEjercicio3" type="number" placeholder="Ingresa el numero de dia">
+        <button id="botonEjercicio3">Verificar</button>
+    </div>
+
+</body>
+<script src="app.js"></script>
+</html>
